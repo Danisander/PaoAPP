@@ -13,6 +13,7 @@ export interface Listing {
   operationType: 'sale' | 'rent';
   createdDate: string;
   source: string;
+  url: string;
 }
 
 export interface FilterState {

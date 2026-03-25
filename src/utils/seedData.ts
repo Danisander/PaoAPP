@@ -26,6 +26,9 @@ const neighborhoods: NeighborhoodData[] = [
   { name: 'Zipaquira', lat: 5.0220, lon: -73.9930, rentRange: [600_000, 1_800_000], saleRange: [120_000_000, 320_000_000], areaRange: [40, 90] },
   { name: 'Chia', lat: 4.8630, lon: -74.0540, rentRange: [1_000_000, 3_500_000], saleRange: [200_000_000, 600_000_000], areaRange: [45, 130] },
   { name: 'Soacha', lat: 4.5790, lon: -74.2170, rentRange: [500_000, 1_500_000], saleRange: [90_000_000, 250_000_000], areaRange: [30, 65] },
+  { name: 'Mosquera', lat: 4.7060, lon: -74.2330, rentRange: [600_000, 2_000_000], saleRange: [120_000_000, 350_000_000], areaRange: [35, 85] },
+  { name: 'Madrid', lat: 4.7350, lon: -74.2640, rentRange: [550_000, 1_800_000], saleRange: [100_000_000, 300_000_000], areaRange: [35, 80] },
+  { name: 'Hacienda Casablanca', lat: 4.7150, lon: -74.2200, rentRange: [700_000, 2_200_000], saleRange: [130_000_000, 380_000_000], areaRange: [40, 90] },
 ];
 
 function seededRandom(seed: number): () => number {
@@ -48,6 +51,24 @@ function randomDate(rng: () => number): string {
 }
 
 const sources = ['FincaRaiz', 'Metrocuadrado', 'Properati', 'OLX', 'Ciencuadras'];
+
+function buildSourceUrl(source: string, neighborhood: string, opType: 'sale' | 'rent'): string {
+  const hood = encodeURIComponent(neighborhood.toLowerCase().replace(/ /g, '-'));
+  const op = opType === 'rent' ? 'arriendo' : 'venta';
+  switch (source) {
+    case 'FincaRaiz':
+      return `https://www.fincaraiz.com.co/apartamento/${op}/bogota/${hood}`;
+    case 'Metrocuadrado':
+      return `https://www.metrocuadrado.com/apartamentos/${op}/bogota/${hood}/`;
+    case 'Ciencuadras':
+      return `https://www.ciencuadras.com/apartamento/${op}/bogota/${hood}`;
+    case 'OLX':
+      return `https://www.olx.com.co/inmuebles/apartamentos-${op}/bogota`;
+    case 'Properati':
+    default:
+      return `https://www.properati.com.co/s/bogota/apartamento/${op}`;
+  }
+}
 
 export function generateSeedData(): Listing[] {
   const rng = seededRandom(42);
@@ -82,13 +103,17 @@ export function generateSeedData(): Listing[] {
         bedrooms,
         bathrooms,
         neighborhood: hood.name,
-        city: ['Zipaquira', 'Chia', 'Soacha'].includes(hood.name) ? hood.name : 'Bogota',
+        city: ['Zipaquira', 'Chia', 'Soacha', 'Mosquera', 'Madrid', 'Hacienda Casablanca'].includes(hood.name) ? hood.name : 'Bogota',
         lat: hood.lat + latOffset,
         lon: hood.lon + lonOffset,
         operationType: opType,
         createdDate: randomDate(rng),
         source: sources[Math.floor(rng() * sources.length)],
+        url: '',
       });
+      // Set URL after source is assigned
+      const last = listings[listings.length - 1];
+      last.url = buildSourceUrl(last.source, hood.name, opType);
     }
   }
 

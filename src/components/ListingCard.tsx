@@ -66,10 +66,19 @@ export function ListingCard({ listing }: ListingCardProps) {
           </span>
         </div>
 
-        <div className="flex items-center justify-between text-xs text-gray-400">
+        <div className="flex items-center justify-between text-xs text-gray-400 mb-3">
           <span>{listing.neighborhood}, {listing.city}</span>
           <span>{timeAgo}</span>
         </div>
+
+        <a
+          href={listing.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block w-full text-center py-2 bg-primary-600 text-white rounded-lg text-sm font-semibold hover:bg-primary-700 transition-colors"
+        >
+          Ver oferta en {listing.source} &rarr;
+        </a>
       </div>
     </div>
   );
