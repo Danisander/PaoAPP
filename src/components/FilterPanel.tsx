@@ -1,5 +1,4 @@
 import type { FilterState } from '../types/listing';
-import { formatPriceShort } from '../utils/formatPrice';
 
 interface FilterPanelProps {
   filters: FilterState;
@@ -48,61 +47,87 @@ export function FilterPanel({ filters, neighborhoods, updateFilter, resetFilters
         </div>
       </div>
 
-      {/* Price range */}
+      {/* Price range - input fields */}
       <div>
-        <label className="block text-sm font-semibold text-gray-700 mb-1">Precio</label>
-        <div className="flex justify-between text-xs text-gray-500 mb-2">
-          <span>{formatPriceShort(filters.priceMin)}</span>
-          <span>{formatPriceShort(filters.priceMax)}</span>
-        </div>
-        <div className="space-y-2">
-          <input
-            type="range"
-            min={0}
-            max={1_500_000_000}
-            step={10_000_000}
-            value={filters.priceMin}
-            onChange={(e) => updateFilter('priceMin', Number(e.target.value))}
-            className="w-full"
-          />
-          <input
-            type="range"
-            min={0}
-            max={1_500_000_000}
-            step={10_000_000}
-            value={filters.priceMax}
-            onChange={(e) => updateFilter('priceMax', Number(e.target.value))}
-            className="w-full"
-          />
+        <label className="block text-sm font-semibold text-gray-700 mb-2">Precio (COP)</label>
+        <div className="flex items-center gap-2">
+          <div className="flex-1">
+            <label className="block text-xs text-gray-400 mb-1">Mínimo</label>
+            <div className="relative">
+              <span className="absolute left-2.5 top-1/2 -translate-y-1/2 text-gray-400 text-sm">$</span>
+              <input
+                type="text"
+                inputMode="numeric"
+                value={filters.priceMin === 0 ? '' : filters.priceMin.toLocaleString('es-CO')}
+                onChange={(e) => {
+                  const num = Number(e.target.value.replace(/\D/g, ''));
+                  updateFilter('priceMin', isNaN(num) ? 0 : num);
+                }}
+                placeholder="0"
+                className="w-full border border-gray-300 rounded-lg pl-6 pr-2 py-2 text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+              />
+            </div>
+          </div>
+          <span className="text-gray-300 mt-5">—</span>
+          <div className="flex-1">
+            <label className="block text-xs text-gray-400 mb-1">Máximo</label>
+            <div className="relative">
+              <span className="absolute left-2.5 top-1/2 -translate-y-1/2 text-gray-400 text-sm">$</span>
+              <input
+                type="text"
+                inputMode="numeric"
+                value={filters.priceMax === 1_500_000_000 ? '' : filters.priceMax.toLocaleString('es-CO')}
+                onChange={(e) => {
+                  const num = Number(e.target.value.replace(/\D/g, ''));
+                  updateFilter('priceMax', isNaN(num) || num === 0 ? 1_500_000_000 : num);
+                }}
+                placeholder="Sin límite"
+                className="w-full border border-gray-300 rounded-lg pl-6 pr-2 py-2 text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+              />
+            </div>
+          </div>
         </div>
       </div>
 
-      {/* Area range */}
+      {/* Area range - input fields */}
       <div>
-        <label className="block text-sm font-semibold text-gray-700 mb-1">Area (m²)</label>
-        <div className="flex justify-between text-xs text-gray-500 mb-2">
-          <span>{filters.areaMin} m²</span>
-          <span>{filters.areaMax} m²</span>
-        </div>
-        <div className="space-y-2">
-          <input
-            type="range"
-            min={0}
-            max={300}
-            step={5}
-            value={filters.areaMin}
-            onChange={(e) => updateFilter('areaMin', Number(e.target.value))}
-            className="w-full"
-          />
-          <input
-            type="range"
-            min={0}
-            max={300}
-            step={5}
-            value={filters.areaMax}
-            onChange={(e) => updateFilter('areaMax', Number(e.target.value))}
-            className="w-full"
-          />
+        <label className="block text-sm font-semibold text-gray-700 mb-2">Área (m²)</label>
+        <div className="flex items-center gap-2">
+          <div className="flex-1">
+            <label className="block text-xs text-gray-400 mb-1">Mínimo</label>
+            <div className="relative">
+              <input
+                type="text"
+                inputMode="numeric"
+                value={filters.areaMin === 0 ? '' : filters.areaMin}
+                onChange={(e) => {
+                  const num = Number(e.target.value.replace(/\D/g, ''));
+                  updateFilter('areaMin', isNaN(num) ? 0 : num);
+                }}
+                placeholder="0"
+                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+              />
+              <span className="absolute right-2.5 top-1/2 -translate-y-1/2 text-gray-400 text-xs">m²</span>
+            </div>
+          </div>
+          <span className="text-gray-300 mt-5">—</span>
+          <div className="flex-1">
+            <label className="block text-xs text-gray-400 mb-1">Máximo</label>
+            <div className="relative">
+              <input
+                type="text"
+                inputMode="numeric"
+                value={filters.areaMax === 300 ? '' : filters.areaMax}
+                onChange={(e) => {
+                  const num = Number(e.target.value.replace(/\D/g, ''));
+                  updateFilter('areaMax', isNaN(num) || num === 0 ? 300 : num);
+                }}
+                placeholder="Sin límite"
+                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+              />
+              <span className="absolute right-2.5 top-1/2 -translate-y-1/2 text-gray-400 text-xs">m²</span>
+            </div>
+          </div>
         </div>
       </div>
 
