@@ -21,8 +21,26 @@ export function ListingCard({ listing }: ListingCardProps) {
 
   return (
     <div className="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow overflow-hidden group">
-      {/* Color header */}
-      <div className={`h-32 bg-gradient-to-br ${gradients[gradientIndex]} relative`}>
+      {/* Image or gradient header */}
+      <div className={`h-40 relative ${!listing.image ? `bg-gradient-to-br ${gradients[gradientIndex]}` : 'bg-gray-200'}`}>
+        {listing.image ? (
+          <img
+            src={listing.image}
+            alt={listing.title}
+            className="w-full h-full object-cover"
+            loading="lazy"
+            onError={(e) => {
+              (e.target as HTMLImageElement).style.display = 'none';
+              (e.target as HTMLImageElement).parentElement!.classList.add(`bg-gradient-to-br`, ...gradients[gradientIndex].split(' '));
+            }}
+          />
+        ) : (
+          <div className="absolute inset-0 flex items-center justify-center">
+            <svg className="w-12 h-12 text-white/30" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+            </svg>
+          </div>
+        )}
         <div className="absolute top-3 left-3">
           <span className={`px-2.5 py-1 rounded-full text-xs font-bold text-white ${
             listing.operationType === 'rent' ? 'bg-blue-500' : 'bg-green-600'
@@ -30,13 +48,8 @@ export function ListingCard({ listing }: ListingCardProps) {
             {listing.operationType === 'rent' ? 'Arriendo' : 'Venta'}
           </span>
         </div>
-        <div className="absolute bottom-3 right-3 text-white/80 text-xs">
+        <div className="absolute bottom-3 right-3 bg-black/50 text-white px-2 py-0.5 rounded text-xs">
           {listing.source}
-        </div>
-        <div className="absolute inset-0 flex items-center justify-center">
-          <svg className="w-12 h-12 text-white/30" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
-          </svg>
         </div>
       </div>
 

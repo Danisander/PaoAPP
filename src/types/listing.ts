@@ -14,6 +14,8 @@ export interface Listing {
   createdDate: string;
   source: string;
   url: string;
+  image?: string;
+  adminPrice?: number;
 }
 
 export interface FilterState {
