@@ -93,22 +93,19 @@ async function fetchListings(location, operation, isCity = false) {
           }
         }
 
-        if (item.geo_point) {
-          lat = item.geo_point.lat || 0;
-          lon = item.geo_point.lon || 0;
-        } else if (item.coordinates) {
-          lat = item.coordinates.lat || 0;
-          lon = item.coordinates.lon || 0;
-        }
+        lat = item.latitude || item.geo_point?.lat || item.coordinates?.lat || 0;
+        lon = item.longitude || item.geo_point?.lon || item.coordinates?.lon || 0;
 
         // Only keep listings with valid 9+ digit IDs
         if (String(itemId).length < 9) continue;
 
-        // Build real URL to the listing page (format: /inmueble/ID redirects to proper slug)
-        const url = `https://www.fincaraiz.com.co/inmueble/${itemId}`;
+        // Build real URL using the link field from FincaRaiz data
+        const url = item.link
+          ? `https://www.fincaraiz.com.co${item.link}`
+          : `https://www.fincaraiz.com.co/${operation}/apartamentos/bogota`;
 
-        // Extract bedrooms/bathrooms from technicalSheet or direct fields
-        let bedrooms = item.bedrooms || 0;
+        // Extract bedrooms/bathrooms
+        let bedrooms = item.rooms || item.bedrooms || 0;
         let bathrooms = item.bathrooms || 0;
         if (item.technicalSheet) {
           const ts = item.technicalSheet;
