@@ -19,12 +19,12 @@ function App() {
   const [showFilters, setShowFilters] = useState(false);
   const [sortOrder, setSortOrder] = useState<SortOrder>('default');
 
-  // Hacienda Casablanca featured listings
+  // Hacienda Casablanca featured listings - strict match only
   const casablancaListings = useMemo(() =>
     listings.filter(l =>
       l.tags?.includes('hacienda-casablanca') ||
-      l.neighborhood.toLowerCase().includes('casablanca') ||
-      l.title.toLowerCase().includes('casablanca')
+      l.neighborhood === 'Hacienda Casablanca' ||
+      l.title.toLowerCase().includes('hacienda casablanca')
     ), [listings]
   );
 

@@ -3500,26 +3500,6 @@
     "tags": []
   },
   {
-    "id": "fr-193506520",
-    "title": "Apartamento en Arriendo en Puente aranda, Bogotá",
-    "price": 4100000,
-    "adminPrice": 4100000,
-    "currency": "COP",
-    "areaM2": 95,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "neighborhood": "Kennedy",
-    "city": "Bogota",
-    "lat": 4.6283178,
-    "lon": -74.12341,
-    "operationType": "rent",
-    "createdDate": "2026-03-13",
-    "source": "FincaRaiz",
-    "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-puente-aranda-bogota/193506520",
-    "image": "https://cdn2.infocasas.com.uy/repo/img/69b4178142d2a_infocdn__nyh3ijkwid7mf31hznwi20etmke0psra4rgv13psjpg.jpg",
-    "tags": []
-  },
-  {
     "id": "fr-193449006",
     "title": "Apartamento en Arriendo en Venecia, Bogotá",
     "price": 1400000,
@@ -3537,6 +3517,26 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-venecia-bogota/193449006",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69a706cb5de41_infocdn__6a542295-302f-4c51-b1ca-d1ed5b07d64b.jpeg",
+    "tags": []
+  },
+  {
+    "id": "fr-193506520",
+    "title": "Apartamento en Arriendo en Puente aranda, Bogotá",
+    "price": 4100000,
+    "adminPrice": 4100000,
+    "currency": "COP",
+    "areaM2": 95,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "neighborhood": "Kennedy",
+    "city": "Bogota",
+    "lat": 4.6283178,
+    "lon": -74.12341,
+    "operationType": "rent",
+    "createdDate": "2026-03-13",
+    "source": "FincaRaiz",
+    "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-puente-aranda-bogota/193506520",
+    "image": "https://cdn2.infocasas.com.uy/repo/img/69b4178142d2a_infocdn__nyh3ijkwid7mf31hznwi20etmke0psra4rgv13psjpg.jpg",
     "tags": []
   },
   {
@@ -3560,28 +3560,6 @@
     "tags": []
   },
   {
-    "id": "fr-193502687",
-    "title": "Apartamento en Arriendo en Casa Blanca, Bogotá",
-    "price": 1190000,
-    "adminPrice": 1350000,
-    "currency": "COP",
-    "areaM2": 57,
-    "bedrooms": 3,
-    "bathrooms": 1,
-    "neighborhood": "Hacienda Casablanca",
-    "city": "Bogota",
-    "lat": 4.61677,
-    "lon": -74.1727536,
-    "operationType": "rent",
-    "createdDate": "2026-03-12",
-    "source": "FincaRaiz",
-    "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-casa-blanca-bogota/193502687",
-    "image": "https://cdn2.infocasas.com.uy/repo/img/69b2fcd1d3188_infocdn__fv5eg8g3lyzlegeabh2s1hkn2pgtliex01kssntejpg.jpg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
-  },
-  {
     "id": "fr-193382792",
     "title": "Apartamento en Arriendo en Tintala, Bogotá",
     "price": 1000000,
@@ -3599,6 +3577,26 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-tintala-bogota/193382792",
     "image": "https://cdn2.infocasas.com.uy/repo/img/698c79cb7d5c7_infocdn__u1967v5ljvcrubig9bqzph4xv6blua6xcbrpty0xjpg.jpg",
+    "tags": []
+  },
+  {
+    "id": "fr-193502687",
+    "title": "Apartamento en Arriendo en Casa Blanca, Bogotá",
+    "price": 1190000,
+    "adminPrice": 1350000,
+    "currency": "COP",
+    "areaM2": 57,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "neighborhood": "Kennedy",
+    "city": "Bogota",
+    "lat": 4.61677,
+    "lon": -74.1727536,
+    "operationType": "rent",
+    "createdDate": "2026-03-12",
+    "source": "FincaRaiz",
+    "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-casa-blanca-bogota/193502687",
+    "image": "https://cdn2.infocasas.com.uy/repo/img/69b2fcd1d3188_infocdn__fv5eg8g3lyzlegeabh2s1hkn2pgtliex01kssntejpg.jpg",
     "tags": []
   },
   {
@@ -3622,26 +3620,6 @@
     "tags": []
   },
   {
-    "id": "fr-193338106",
-    "title": "Apartamento en Arriendo en Castilla, Bogotá",
-    "price": 1900000,
-    "adminPrice": 1900000,
-    "currency": "COP",
-    "areaM2": 72,
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "neighborhood": "Kennedy",
-    "city": "Bogota",
-    "lat": 4.6394436,
-    "lon": -74.1447165,
-    "operationType": "rent",
-    "createdDate": "2026-01-29",
-    "source": "FincaRaiz",
-    "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-castilla-bogota/193338106",
-    "image": "https://cdn2.infocasas.com.uy/repo/img/69a3630dbe88e_infocdn__09bc0bad-70ae-4009-b7fd-452cfdc4d80dproperty09bc0bad70ae4009b7fd452cfdc4d80dby7zauxm25sjpg.jpg",
-    "tags": []
-  },
-  {
     "id": "fr-193321542",
     "title": "Apartamento en Arriendo en Castilla, Bogotá",
     "price": 2700000,
@@ -3659,6 +3637,26 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-castilla-bogota/193321542",
     "image": "https://cdn2.infocasas.com.uy/repo/img/697794ea4b253_infocdn__69775fbc3bd0fjpg.jpg",
+    "tags": []
+  },
+  {
+    "id": "fr-193338106",
+    "title": "Apartamento en Arriendo en Castilla, Bogotá",
+    "price": 1900000,
+    "adminPrice": 1900000,
+    "currency": "COP",
+    "areaM2": 72,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "neighborhood": "Kennedy",
+    "city": "Bogota",
+    "lat": 4.6394436,
+    "lon": -74.1447165,
+    "operationType": "rent",
+    "createdDate": "2026-01-29",
+    "source": "FincaRaiz",
+    "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-castilla-bogota/193338106",
+    "image": "https://cdn2.infocasas.com.uy/repo/img/69a3630dbe88e_infocdn__09bc0bad-70ae-4009-b7fd-452cfdc4d80dproperty09bc0bad70ae4009b7fd452cfdc4d80dby7zauxm25sjpg.jpg",
     "tags": []
   },
   {
@@ -3762,26 +3760,6 @@
     "tags": []
   },
   {
-    "id": "fr-193368563",
-    "title": "Apartamento en Arriendo en Nueva Castilla, Bogotá",
-    "price": 2300000,
-    "adminPrice": 2300000,
-    "currency": "COP",
-    "areaM2": 67,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "neighborhood": "Kennedy",
-    "city": "Bogota",
-    "lat": 4.6466023,
-    "lon": -74.151758,
-    "operationType": "rent",
-    "createdDate": "2026-02-06",
-    "source": "FincaRaiz",
-    "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-nueva-castilla-bogota/193368563",
-    "image": "https://cdn2.infocasas.com.uy/repo/img/69aedf627c3a9_infocdn__uc1cnkbzoip1od8rwstbnc2oarjurdedqofou8k-rdlrilk5bzwwtayioagry6cgn8zbgeqeljucgrr7b3vhsymbe2ygkkp6ckb4vwikddi0.jpeg",
-    "tags": []
-  },
-  {
     "id": "fr-193534777",
     "title": "Apartamento en Arriendo en El tintal, Bogotá",
     "price": 1750000,
@@ -3802,43 +3780,23 @@
     "tags": []
   },
   {
-    "id": "fr-193487216",
-    "title": "Apartamento en Arriendo en El tintal, Bogotá",
-    "price": 1000000,
-    "adminPrice": 1250000,
+    "id": "fr-193368563",
+    "title": "Apartamento en Arriendo en Nueva Castilla, Bogotá",
+    "price": 2300000,
+    "adminPrice": 2300000,
     "currency": "COP",
-    "areaM2": 54,
+    "areaM2": 67,
     "bedrooms": 3,
-    "bathrooms": 1,
+    "bathrooms": 2,
     "neighborhood": "Kennedy",
     "city": "Bogota",
-    "lat": 4.6522786,
-    "lon": -74.1397777,
+    "lat": 4.6466023,
+    "lon": -74.151758,
     "operationType": "rent",
-    "createdDate": "2026-03-10",
+    "createdDate": "2026-02-06",
     "source": "FincaRaiz",
-    "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-el-tintal-bogota/193487216",
-    "image": "https://cdn2.infocasas.com.uy/repo/img/69b0892a18746_infocdn__0wnvlqgowtmwuovx2l-rkzdmav9hvif4xq2s3akila4esxpa8--8ee9qkq1n8ezsf3ezheil3wbflqlu2a-gbkd8ek29byyo-ocy3zxxqlfp.jpeg",
-    "tags": []
-  },
-  {
-    "id": "fr-193209214",
-    "title": "Apartamento en Arriendo en Villa alsacia, Bogotá",
-    "price": 1700000,
-    "adminPrice": 1700000,
-    "currency": "COP",
-    "areaM2": 65,
-    "bedrooms": 3,
-    "bathrooms": 1,
-    "neighborhood": "Kennedy",
-    "city": "Bogota",
-    "lat": 4.6395037,
-    "lon": -74.1401447,
-    "operationType": "rent",
-    "createdDate": "2025-12-16",
-    "source": "FincaRaiz",
-    "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-villa-alsacia-bogota/193209214",
-    "image": "https://cdn2.infocasas.com.uy/repo/img/69b9932de3e1f_infocdn__c6pfeptwsdakluq4lvh28ty31rqkbpc1-wab7b71saj5u6-herzqw5wqd-97jdjm-j0mjpa8nhkiwiziexelnhn83lj0oz8y3ofhwhi72e8.jpeg",
+    "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-nueva-castilla-bogota/193368563",
+    "image": "https://cdn2.infocasas.com.uy/repo/img/69aedf627c3a9_infocdn__uc1cnkbzoip1od8rwstbnc2oarjurdedqofou8k-rdlrilk5bzwwtayioagry6cgn8zbgeqeljucgrr7b3vhsymbe2ygkkp6ckb4vwikddi0.jpeg",
     "tags": []
   },
   {
@@ -3862,6 +3820,46 @@
     "tags": []
   },
   {
+    "id": "fr-193209214",
+    "title": "Apartamento en Arriendo en Villa alsacia, Bogotá",
+    "price": 1700000,
+    "adminPrice": 1700000,
+    "currency": "COP",
+    "areaM2": 65,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "neighborhood": "Kennedy",
+    "city": "Bogota",
+    "lat": 4.6395037,
+    "lon": -74.1401447,
+    "operationType": "rent",
+    "createdDate": "2025-12-16",
+    "source": "FincaRaiz",
+    "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-villa-alsacia-bogota/193209214",
+    "image": "https://cdn2.infocasas.com.uy/repo/img/69b9932de3e1f_infocdn__c6pfeptwsdakluq4lvh28ty31rqkbpc1-wab7b71saj5u6-herzqw5wqd-97jdjm-j0mjpa8nhkiwiziexelnhn83lj0oz8y3ofhwhi72e8.jpeg",
+    "tags": []
+  },
+  {
+    "id": "fr-193487216",
+    "title": "Apartamento en Arriendo en El tintal, Bogotá",
+    "price": 1000000,
+    "adminPrice": 1250000,
+    "currency": "COP",
+    "areaM2": 54,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "neighborhood": "Kennedy",
+    "city": "Bogota",
+    "lat": 4.6522786,
+    "lon": -74.1397777,
+    "operationType": "rent",
+    "createdDate": "2026-03-10",
+    "source": "FincaRaiz",
+    "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-el-tintal-bogota/193487216",
+    "image": "https://cdn2.infocasas.com.uy/repo/img/69b0892a18746_infocdn__0wnvlqgowtmwuovx2l-rkzdmav9hvif4xq2s3akila4esxpa8--8ee9qkq1n8ezsf3ezheil3wbflqlu2a-gbkd8ek29byyo-ocy3zxxqlfp.jpeg",
+    "tags": []
+  },
+  {
     "id": "fr-193446209",
     "title": "Apartamento en Arriendo en Castilla, Bogotá",
     "price": 1255300,
@@ -3882,26 +3880,6 @@
     "tags": []
   },
   {
-    "id": "fr-193365077",
-    "title": "Apartamento en Arriendo en Techo, Bogotá",
-    "price": 1300000,
-    "adminPrice": 1300000,
-    "currency": "COP",
-    "areaM2": 42,
-    "bedrooms": 2,
-    "bathrooms": 1,
-    "neighborhood": "Kennedy",
-    "city": "Bogota",
-    "lat": 4.6344476,
-    "lon": -74.1556069,
-    "operationType": "rent",
-    "createdDate": "2026-02-05",
-    "source": "FincaRaiz",
-    "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-techo-bogota/193365077",
-    "image": "https://cdn2.infocasas.com.uy/repo/img/69b444fd2011e_infocdn__0d58807e-0631-4e92-87e7-c8c1987e1c5d.jpeg",
-    "tags": []
-  },
-  {
     "id": "fr-193197387",
     "title": "Apartamento en Arriendo en Casa Blanca, Bogotá",
     "price": 1650000,
@@ -3910,7 +3888,7 @@
     "areaM2": 56,
     "bedrooms": 3,
     "bathrooms": 1,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Kennedy",
     "city": "Bogota",
     "lat": 4.614346243727,
     "lon": -74.172382203011,
@@ -3919,9 +3897,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-casa-blanca-bogota/193197387",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69b078b5a135c_infocdn__4847-1-1765568269jpg.jpg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193481258",
@@ -7024,26 +7000,6 @@
     "tags": []
   },
   {
-    "id": "fr-193551125",
-    "title": "Apartamento en Arriendo en Gran granada, Bogotá",
-    "price": 1800000,
-    "adminPrice": 1800000,
-    "currency": "COP",
-    "areaM2": 65,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "neighborhood": "Engativa",
-    "city": "Bogota",
-    "lat": 4.7229318,
-    "lon": -74.1265056,
-    "operationType": "rent",
-    "createdDate": "2026-03-21",
-    "source": "FincaRaiz",
-    "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-gran-granada-bogota/193551125",
-    "image": "https://cdn2.infocasas.com.uy/repo/img/69beffd29e5c4_infocdn__5b42f27f-9dd2-41cd-a7f4-d44003b8f0e7.jpeg",
-    "tags": []
-  },
-  {
     "id": "fr-193520144",
     "title": "Apartamento en Arriendo en Engativá, Bogotá",
     "price": 2300000,
@@ -7061,6 +7017,26 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-engativa-bogota/193520144",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69b86da9e301f_infocdn__h8uxk84xqhix4jrdwju6glsmpsiqeb0q0dsdusu8jpg.jpg",
+    "tags": []
+  },
+  {
+    "id": "fr-193100439",
+    "title": "Apartamento en Arriendo en La Estradita, Bogotá",
+    "price": 1800000,
+    "adminPrice": 1800000,
+    "currency": "COP",
+    "areaM2": 65,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "neighborhood": "Engativa",
+    "city": "Bogota",
+    "lat": 4.67385712763,
+    "lon": -74.092228409877,
+    "operationType": "rent",
+    "createdDate": "2025-11-14",
+    "source": "FincaRaiz",
+    "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-la-estradita-bogota/193100439",
+    "image": "https://cdn2.infocasas.com.uy/repo/img/69854426d0aff_infocdn__418-1-1763156779jpg.jpg",
     "tags": []
   },
   {
@@ -17052,7 +17028,7 @@
     "areaM2": 67,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.728687,
     "lon": -74.259331,
@@ -17061,9 +17037,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-san-francisco-madrid/193300135",
     "image": "https://cdn2.infocasas.com.uy/repo/img/6999ef252dc72_infocdn__69ab3a32-67ec-44ed-b8cf-d481f00337f7property69ab3a3267ec44edb8cfd481f00337f7uow22prx5qsjpg.jpg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193426610",
@@ -17134,7 +17108,7 @@
     "areaM2": 67,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7286781,
     "lon": -74.2593657,
@@ -17143,9 +17117,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-madrid/193421064",
     "image": "https://cdn2.infocasas.com.uy/repo/img/6998dca49512a_infocdn__ljawrdrq8ffdgtr2ipaqxj39mgehml4hfz1z57mrjpg.jpg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193150363",
@@ -17316,7 +17288,7 @@
     "areaM2": 50.23,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7260289,
     "lon": -74.260931,
@@ -17325,9 +17297,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-san-francisco-madrid/193374573",
     "image": "https://cdn2.infocasas.com.uy/repo/img/698a00dbdf338_infocdn__nsrakmvxusyybhyr9pwonp6itrrwweqxvtnseilejpg.jpg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193219519",
@@ -17438,7 +17408,7 @@
     "areaM2": 196,
     "bedrooms": 3,
     "bathrooms": 1,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7298168,
     "lon": -74.2670825,
@@ -17447,9 +17417,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-madrid/193413197",
     "image": "https://cdn2.infocasas.com.uy/repo/img/6997238d3ce07_infocdn__bo86smxb23bameghzos7dac2k9hqbojvmotppq35jpg.jpg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193156495",
@@ -17620,7 +17588,7 @@
     "areaM2": 52,
     "bedrooms": 2,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7272982825166,
     "lon": -74.244912204883,
@@ -17629,9 +17597,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-san-pedro-madrid/193357097",
     "image": "https://cdn2.infocasas.com.uy/repo/img/698360315c85c_infocdn__bb4d02aa-24f2-41b7-9ce1-54904f0f030d.jpeg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193386122",
@@ -18322,7 +18288,7 @@
     "areaM2": 62,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7232767,
     "lon": -74.2701834,
@@ -18331,31 +18297,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-barrio-el-triunfo-madrid/193526418",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69bd710d386b4_infocdn__f779961a-7827-4c3d-a1f2-2c672a1acdf7propertyf779961a78274c3da1f22c672a1acdf7g1m02u6l86mjpg.jpg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
-  },
-  {
-    "id": "fr-193281204",
-    "title": "Apartamento en Arriendo en Madrid",
-    "price": 1100000,
-    "adminPrice": 1100000,
-    "currency": "COP",
-    "areaM2": 57,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
-    "city": "Madrid Cundinamarca",
-    "lat": 4.73377,
-    "lon": -74.28441,
-    "operationType": "rent",
-    "createdDate": "2026-01-16",
-    "source": "FincaRaiz",
-    "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-madrid/193281204",
-    "image": "https://cdn2.infocasas.com.uy/repo/img/69b9f354dbb8b_infocdn__94796f1jpeg.jpeg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193534977",
@@ -18518,26 +18460,6 @@
     "tags": []
   },
   {
-    "id": "fr-193502421",
-    "title": "Apartamento en Arriendo en Madrid",
-    "price": 1100000,
-    "adminPrice": 1100000,
-    "currency": "COP",
-    "areaM2": 52,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "neighborhood": "Madrid Cundinamarca",
-    "city": "Madrid Cundinamarca",
-    "lat": 4.7369529,
-    "lon": -74.2823438,
-    "operationType": "rent",
-    "createdDate": "2026-03-12",
-    "source": "FincaRaiz",
-    "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-madrid/193502421",
-    "image": "https://cdn2.infocasas.com.uy/repo/img/69b2f21defae3_infocdn__iw51hyxfjumhjrpbxu9kgburcbwabspjda9m9wbljpg.jpg",
-    "tags": []
-  },
-  {
     "id": "fr-193493193",
     "title": "Apartamento en Arriendo en Madrid",
     "price": 1030000,
@@ -18606,7 +18528,7 @@
     "areaM2": 69,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7234966,
     "lon": -74.2573469,
@@ -18615,9 +18537,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-la-estancia-madrid/193483078",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69b0603fca581_infocdn__4466001-1-1772656596-1jpg.jpg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193541996",
@@ -18668,7 +18588,7 @@
     "areaM2": 57,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7294826,
     "lon": -74.2825227,
@@ -18677,9 +18597,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-la-prosperidad-madrid/193454287",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69a6061768bc7_infocdn__aa041a8d-22c3-45d2-9afc-00af12422fe0.jpeg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193493764",
@@ -18830,7 +18748,7 @@
     "areaM2": 52,
     "bedrooms": 3,
     "bathrooms": 1,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7331492,
     "lon": -74.2845902,
@@ -18839,9 +18757,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-la-prosperidad-madrid/193165448",
     "image": "https://cdn2.infocasas.com.uy/repo/img/6993393c1602b_infocdn__2eba4256-428b-492c-b0b5-f909a535736d.jpeg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193501937",
@@ -19041,26 +18957,6 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-la-prosperidad-madrid/193438145",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69ab1d6d2fb91_infocdn__wfp4ggzge6memi6pukshxbmtnauldc4pdnx0k1y2jd6in3mne5udgjwshivhdgsir0-vkbyvsgbk2xktxdghsicg5ociwjj03rmixieqqe6ctw.jpeg",
-    "tags": []
-  },
-  {
-    "id": "fr-193379301",
-    "title": "Apartamento en Arriendo en La Prosperidad, Madrid",
-    "price": 1000000,
-    "adminPrice": 1186000,
-    "currency": "COP",
-    "areaM2": 67,
-    "bedrooms": 3,
-    "bathrooms": 1,
-    "neighborhood": "Madrid Cundinamarca",
-    "city": "Madrid Cundinamarca",
-    "lat": 4.7359327,
-    "lon": -74.2807214,
-    "operationType": "rent",
-    "createdDate": "2026-02-10",
-    "source": "FincaRaiz",
-    "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-la-prosperidad-madrid/193379301",
-    "image": "https://cdn2.infocasas.com.uy/repo/img/69aef02acb366_infocdn__2cf33208-8465-437e-963c-c202d2021ceaproperty2cf332088465437e963cc202d2021cea6r0fa6xdxpfjpg.jpg",
     "tags": []
   },
   {
@@ -19421,26 +19317,6 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-madrid/193338967",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69bc74972f94f_infocdn__gvqnl3fxcly2acsl7w8hl4qa89lbwuoga-kvblcf3obtnfviswboti0rv7u-xqrhgh-sqn-xm-bxavrd-x1msrwrjtlc0r2a-jvmprmkj3it.jpeg",
-    "tags": []
-  },
-  {
-    "id": "fr-193493428",
-    "title": "Apartamento en Arriendo en La Prosperidad, Madrid",
-    "price": 1000000,
-    "adminPrice": 1000000,
-    "currency": "COP",
-    "areaM2": 57,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "neighborhood": "Madrid Cundinamarca",
-    "city": "Madrid Cundinamarca",
-    "lat": 4.7315644,
-    "lon": -74.2828387,
-    "operationType": "rent",
-    "createdDate": "2026-03-11",
-    "source": "FincaRaiz",
-    "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-la-prosperidad-madrid/193493428",
-    "image": "https://cdn2.infocasas.com.uy/repo/img/69bd4f8811f56_infocdn__gr116780120260311035647png.png",
     "tags": []
   },
   {
@@ -19872,7 +19748,7 @@
     "areaM2": 65,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7281148,
     "lon": -74.2631858,
@@ -19881,9 +19757,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-la-prosperidad-madrid/193504518",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69bc11e859893_infocdn__3c5d7f4f-d2fd-4eb7-8218-8b95adb8e12e.jpeg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193318541",
@@ -19934,7 +19808,7 @@
     "areaM2": 56,
     "bedrooms": 2,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7283195,
     "lon": -74.2473563,
@@ -19943,9 +19817,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-madrid/193557693",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69c2e8a0597d5_infocdn__08zgtx9j4mhz1ginv5hnrhgv-d8qap-yhgwzkeoyvgvhkicjj6rf7z3fuma7qmevh89ml2icj0k2-wygnypddojtxmjeb-v1pbttmvwi34v-yg.jpeg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193528281",
@@ -20116,7 +19988,7 @@
     "areaM2": 50,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7322172,
     "lon": -74.2866698,
@@ -20125,9 +19997,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-la-prosperidad-madrid/193415334",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69bc04f7e6a57_infocdn__5f05a884-75a5-49e0-a12d-cdc45cb3cd18.jpeg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193509641",
@@ -28338,7 +28208,7 @@
     "areaM2": 46.65,
     "bedrooms": 2,
     "bathrooms": 1,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Bosa",
     "city": "Bogota",
     "lat": 4.618627,
     "lon": -74.174222,
@@ -28347,9 +28217,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-casa-blanca-bogota/193485524",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69b048429efb3_infocdn__alu6nqyhwht9cnbuhpoly6irywn8xvtec291vkqqjpg.jpg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193364713",
@@ -38660,7 +38528,7 @@
     "areaM2": 58,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7334260810353,
     "lon": -74.284207820892,
@@ -38669,9 +38537,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/193449838",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69b5a0fad5739_infocdn__gr-apartament0-en-venta-en-madrid-1772301566-4619-7365jpeg.jpeg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193174215",
@@ -38782,7 +38648,7 @@
     "areaM2": 57,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7335375,
     "lon": -74.2624115,
@@ -38791,9 +38657,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/193393655",
     "image": "https://cdn2.infocasas.com.uy/repo/img/698f801c0c4a7_infocdn__gr363301120251230080237png.png",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-192305124",
@@ -38864,7 +38728,7 @@
     "areaM2": 57,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7273582057171,
     "lon": -74.247220158577,
@@ -38873,9 +38737,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/193393643",
     "image": "https://cdn2.infocasas.com.uy/repo/img/698f7f55232b9_infocdn__gr363301020251230103629png.png",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193374572",
@@ -38886,7 +38748,7 @@
     "areaM2": 50.23,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7260289,
     "lon": -74.260931,
@@ -38895,9 +38757,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-san-francisco-madrid/193374572",
     "image": "https://cdn2.infocasas.com.uy/repo/img/698a00dbdf338_infocdn__nsrakmvxusyybhyr9pwonp6itrrwweqxvtnseilejpg.jpg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193413768",
@@ -38928,7 +38788,7 @@
     "areaM2": 66,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7427982,
     "lon": -74.2685312,
@@ -38937,9 +38797,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/193405754",
     "image": "https://cdn2.infocasas.com.uy/repo/img/6994ed3524ab5_infocdn__pszlh5kkifzlzlwxfumn2gazxpz2ah4xblcdj7jmpng.png",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193393646",
@@ -38950,7 +38808,7 @@
     "areaM2": 51,
     "bedrooms": 3,
     "bathrooms": 1,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7433097,
     "lon": -74.2722877,
@@ -38959,9 +38817,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/193393646",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69a21c555d77b_infocdn__gr363301620260204102514png.png",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-192580764",
@@ -39154,7 +39010,7 @@
     "areaM2": 50,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7343987,
     "lon": -74.2502186,
@@ -39163,9 +39019,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/193401813",
     "image": "https://cdn2.infocasas.com.uy/repo/img/6993b79df150e_infocdn__n1hpwl0xhqxqub4nfxslvob1akrxmalnkgykxitmpng.png",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193393642",
@@ -39196,7 +39050,7 @@
     "areaM2": 47,
     "bedrooms": 2,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7327872,
     "lon": -74.289825,
@@ -39205,9 +39059,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/193393645",
     "image": "https://cdn2.infocasas.com.uy/repo/img/698f7f6f62be4_infocdn__gr363302120251230010445png.png",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193077566",
@@ -39524,7 +39376,7 @@
     "areaM2": 110,
     "bedrooms": 3,
     "bathrooms": 3,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7335375,
     "lon": -74.2624115,
@@ -39533,9 +39385,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-zona-centro-madrid/193548378",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69bdc2f166f13_infocdn__qaobovbmgwqt5e9toblodgujglo5ejdysftvftsujpg.jpg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193432573",
@@ -39586,7 +39436,7 @@
     "areaM2": 59.74,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7286618203076,
     "lon": -74.250523950301,
@@ -39595,9 +39445,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-el-cortijo-madrid/193333914",
     "image": "https://cdn2.infocasas.com.uy/repo/img/697a815e55b8a_infocdn__ufvessxvemg3eba5tjmy9a7dwqtsdwrvwkwocz1yjpg.jpg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193038509",
@@ -39708,7 +39556,7 @@
     "areaM2": 51,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7331304,
     "lon": -74.2845863,
@@ -39717,9 +39565,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/193393665",
     "image": "https://cdn2.infocasas.com.uy/repo/img/698f7f65c9b30_infocdn__gr36330220260211023300png.png",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-192905879",
@@ -39790,7 +39636,7 @@
     "areaM2": 68,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7318984,
     "lon": -74.2448742,
@@ -39799,9 +39645,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/193393654",
     "image": "https://cdn2.infocasas.com.uy/repo/img/698f800adb3e5_infocdn__gr36330120260211080757png.png",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193393662",
@@ -39812,7 +39656,7 @@
     "areaM2": 45,
     "bedrooms": 2,
     "bathrooms": 1,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7259511,
     "lon": -74.2462917,
@@ -39821,9 +39665,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/193393662",
     "image": "https://cdn2.infocasas.com.uy/repo/img/698f8b2fcbc2a_infocdn__gr36330120260108074141png.png",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193393521",
@@ -39834,7 +39676,7 @@
     "areaM2": 51,
     "bedrooms": 3,
     "bathrooms": 1,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7433097,
     "lon": -74.2722877,
@@ -39843,9 +39685,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/193393521",
     "image": "https://cdn2.infocasas.com.uy/repo/img/699a5d4a89355_infocdn__gr363302820251003035142png.png",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193249528",
@@ -39896,7 +39736,7 @@
     "areaM2": 70,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7285621,
     "lon": -74.2590534,
@@ -39905,9 +39745,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/193393664",
     "image": "https://cdn2.infocasas.com.uy/repo/img/698f7f4beebf5_infocdn__gr363302520260204111416png.png",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-192374998",
@@ -40060,7 +39898,7 @@
     "areaM2": 70,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7240613701879,
     "lon": -74.257882873172,
@@ -40069,9 +39907,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/192523050",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69bc3547af134_infocdn__636ac62e9cb8cjpg.jpg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-192627103",
@@ -40142,7 +39978,7 @@
     "areaM2": 66,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7260156,
     "lon": -74.267836,
@@ -40151,9 +39987,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/193393586",
     "image": "https://cdn2.infocasas.com.uy/repo/img/698f7e6ec1e44_infocdn__gr36330620251213063437png.png",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-192703712",
@@ -40246,7 +40080,7 @@
     "areaM2": 61,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.73232,
     "lon": -74.2815305,
@@ -40255,9 +40089,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/193393676",
     "image": "https://cdn2.infocasas.com.uy/repo/img/698f802e56b29_infocdn__gr36330120251230105946png.png",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-192176871",
@@ -40310,7 +40142,7 @@
     "areaM2": 77,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7244125,
     "lon": -74.2575996,
@@ -40319,9 +40151,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/193438283",
     "image": "https://cdn2.infocasas.com.uy/repo/img/699f8e56038a3_infocdn__gr36330220260204105440png.png",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-192560401",
@@ -40392,7 +40222,7 @@
     "areaM2": 54,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7335375,
     "lon": -74.2624115,
@@ -40401,9 +40231,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-zona-centro-madrid/192180520",
     "image": "https://cdn2.infocasas.com.uy/repo/img/67dda9ab4a5d1_infocdn__zesjfmzxt7yvvuefskznmlfcrzwh7pbxykpv4mlpjpg.jpg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193459376",
@@ -40443,26 +40271,6 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-la-prosperidad-madrid/192499559",
     "image": "https://cdn2.infocasas.com.uy/repo/img/68436f31955d1_infocdn__1jksarae5rrj1gmz4gbdoym9zwmfgr8guz8wa7vojpg.jpg",
-    "tags": []
-  },
-  {
-    "id": "fr-193247241",
-    "title": "Apartamento en Venta en San pedro, Madrid",
-    "price": 170000000,
-    "adminPrice": 170097489,
-    "currency": "COP",
-    "areaM2": 50,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "neighborhood": "Madrid Cundinamarca",
-    "city": "Madrid Cundinamarca",
-    "lat": 4.7345325,
-    "lon": -74.2496712,
-    "operationType": "sale",
-    "createdDate": "2026-01-05",
-    "source": "FincaRaiz",
-    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-san-pedro-madrid/193247241",
-    "image": "https://cdn2.infocasas.com.uy/repo/img/695c15881f14c_infocdn__gna0uuczcvde0lp7cxyuqu9cwq8px1obiihlwz8zpng.png",
     "tags": []
   },
   {
@@ -40634,7 +40442,7 @@
     "areaM2": 0,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7307767,
     "lon": -74.2850138,
@@ -40643,9 +40451,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-la-prosperidad-madrid/192911226",
     "image": "https://cdn2.infocasas.com.uy/repo/img/68d4587610c48_infocdn__jk6b4arpymcbihuwh8djdcw5pqryl9tn0dswdyiajpg.jpg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193558738",
@@ -40656,7 +40462,7 @@
     "areaM2": 62,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7341338,
     "lon": -74.284813,
@@ -40665,9 +40471,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-la-prosperidad-madrid/193558738",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69c313039899f_infocdn__jgtobhgcr5xja3sgxowqbtuxvwtgyqpcbbmfkvkkjpg.jpg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193520385",
@@ -40678,7 +40482,7 @@
     "areaM2": 70,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7289407,
     "lon": -74.2591324,
@@ -40687,9 +40491,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-zona-centro-madrid/193520385",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69b87adb3f58c_infocdn__1znu0gnt30w5yaztafalguh8l29q1ugyfbhidcg7jpg.jpg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193432227",
@@ -40924,7 +40726,7 @@
     "areaM2": 49,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7242253,
     "lon": -74.2479068,
@@ -40933,9 +40735,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/193447555",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69a21c7717676_infocdn__gr36330120260211112455png.png",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193447577",
@@ -40946,7 +40746,7 @@
     "areaM2": 50,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7351071,
     "lon": -74.2502591,
@@ -40955,9 +40755,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/193447577",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69a21fa3eb50e_infocdn__gr363302320260227054113png.png",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193520143",
@@ -41048,7 +40846,7 @@
     "areaM2": 60,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.727032,
     "lon": -74.2681105,
@@ -41057,9 +40855,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-zona-centro-madrid/193559557",
     "image": "https://cdn2.infocasas.com.uy/gen-ai/enhanced_image_20260325025812.png",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193476450",
@@ -41310,7 +41106,7 @@
     "areaM2": 56,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7335273,
     "lon": -74.2848235,
@@ -41319,9 +41115,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/193505262",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69b36b7129584_infocdn__gr363301820250820073856png.png",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-192138808",
@@ -41381,26 +41175,6 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-conjunto-residencial-zaragoza-madrid/192446996",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69b73cd650196_infocdn__574bae58-a3af-4a0e-9916-6eba7377187cproperty574bae58a3af4a0e99166eba7377187c46ddxg3dsdljpg.jpg",
-    "tags": []
-  },
-  {
-    "id": "fr-193294728",
-    "title": "Apartamento en Venta en La Prosperidad, Madrid",
-    "price": 180000000,
-    "adminPrice": 180163000,
-    "currency": "COP",
-    "areaM2": 58,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "neighborhood": "Madrid Cundinamarca",
-    "city": "Madrid Cundinamarca",
-    "lat": 4.732273,
-    "lon": -74.2815216,
-    "operationType": "sale",
-    "createdDate": "2026-01-20",
-    "source": "FincaRaiz",
-    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-la-prosperidad-madrid/193294728",
-    "image": "https://cdn2.infocasas.com.uy/repo/img/698e4c97cdecf_infocdn__picture-944c17f0e8f349d5822ca8856d06a99epng.png",
     "tags": []
   },
   {
@@ -41464,6 +41238,50 @@
     "tags": []
   },
   {
+    "id": "fr-193558516",
+    "title": "Apartamento en Venta en Zona centro, Madrid",
+    "price": 287000000,
+    "adminPrice": 287225000,
+    "currency": "COP",
+    "areaM2": 70,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "neighborhood": "Hacienda Casablanca",
+    "city": "Madrid Cundinamarca",
+    "lat": 4.7285621,
+    "lon": -74.2590534,
+    "operationType": "sale",
+    "createdDate": "2026-03-24",
+    "source": "FincaRaiz",
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-zona-centro-madrid/193558516",
+    "image": "https://cdn2.infocasas.com.uy/gen-ai/enhanced_image_20260324213400.png",
+    "tags": [
+      "hacienda-casablanca"
+    ]
+  },
+  {
+    "id": "fr-193429651",
+    "title": "Apartamento en Venta en Hacienda casablanca el caney, Madrid",
+    "price": 335000000,
+    "adminPrice": 335313000,
+    "currency": "COP",
+    "areaM2": 77,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "neighborhood": "Hacienda Casablanca",
+    "city": "Madrid Cundinamarca",
+    "lat": 4.7239835953398,
+    "lon": -74.257643222809,
+    "operationType": "sale",
+    "createdDate": "2026-02-24",
+    "source": "FincaRaiz",
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-hacienda-casablanca-el-caney-madrid/193429651",
+    "image": "https://cdn2.infocasas.com.uy/repo/img/69b77cdd5bb39_infocdn__102901-1-1771907590png.png",
+    "tags": [
+      "hacienda-casablanca"
+    ]
+  },
+  {
     "id": "fr-193374930",
     "title": "Apartamento en Venta en San pedro, Madrid",
     "price": 160000000,
@@ -41492,7 +41310,7 @@
     "areaM2": 63,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7281165085366,
     "lon": -74.258755775224,
@@ -41501,9 +41319,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-san-francisco-madrid/193293966",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69a0befdcdef4_infocdn__picture-edf4d496c33047fa98bd88b293cc193cjpg.jpg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193228262",
@@ -41686,28 +41502,6 @@
     "tags": []
   },
   {
-    "id": "fr-193542309",
-    "title": "Apartamento en Venta en San francisco, Madrid",
-    "price": 180000000,
-    "adminPrice": 180200000,
-    "currency": "COP",
-    "areaM2": 57,
-    "bedrooms": 3,
-    "bathrooms": 1,
-    "neighborhood": "Hacienda Casablanca",
-    "city": "Madrid Cundinamarca",
-    "lat": 4.7293168,
-    "lon": -74.2638418,
-    "operationType": "sale",
-    "createdDate": "2026-03-19",
-    "source": "FincaRaiz",
-    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-san-francisco-madrid/193542309",
-    "image": "https://cdn2.infocasas.com.uy/repo/img/69bc1c85d01ba_infocdn__yqapnypndnqx7qipx4hyrin19te4poh3qss0ngjjjpg.jpg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
-  },
-  {
     "id": "fr-192952701",
     "title": "Apartamento en Venta en Madrid",
     "price": 192000000,
@@ -41716,7 +41510,7 @@
     "areaM2": 57,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7275025522671,
     "lon": -74.247364997864,
@@ -41725,9 +41519,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/192952701",
     "image": "https://cdn2.infocasas.com.uy/repo/img/68e3f160a5140_infocdn__gr412961220251006110022png.png",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193452527",
@@ -41738,7 +41530,7 @@
     "areaM2": 54,
     "bedrooms": 2,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7335375,
     "lon": -74.2624115,
@@ -41747,9 +41539,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/193452527",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69a5b530b15b6_infocdn__gr1815152520260302105930jpeg.jpeg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193423594",
@@ -41960,7 +41750,7 @@
     "areaM2": 58,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.735333,
     "lon": -74.2821191,
@@ -41969,9 +41759,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/193447839",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69a24d61d9cd7_infocdn__gr36330720260227082805png.png",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193393605",
@@ -42002,7 +41790,7 @@
     "areaM2": 84.4,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7275092,
     "lon": -74.2683884,
@@ -42011,9 +41799,7 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/193353293",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69b1f16e5e270_infocdn__mt6xixxcg9blliknvrhqphs6i5gpuev6qdjzowkqm2bcxnpbp4rer2z1xy1iayjheznypkxohc9-xnzonuigmuygn4muzppkkbyvzsblbgrb.jpeg",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
   },
   {
     "id": "fr-193147604",
@@ -42124,7 +41910,7 @@
     "areaM2": 50,
     "bedrooms": 3,
     "bathrooms": 2,
-    "neighborhood": "Hacienda Casablanca",
+    "neighborhood": "Madrid Cundinamarca",
     "city": "Madrid Cundinamarca",
     "lat": 4.7347703,
     "lon": -74.2497743,
@@ -42133,9 +41919,61 @@
     "source": "FincaRaiz",
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-madrid/193080536",
     "image": "https://cdn2.infocasas.com.uy/repo/img/69120e5859417_infocdn__90g5oace179in0hxr9nuagp8ppcs1n07hbeoovyhpng.png",
-    "tags": [
-      "hacienda-casablanca"
-    ]
+    "tags": []
+  },
+  {
+    "id": "mc-MC5402857",
+    "title": "Apartamento en Arriendo en SANTA BIBIANA, Bogotá",
+    "price": 2800000,
+    "currency": "COP",
+    "areaM2": 56,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "neighborhood": "SANTA BIBIANA",
+    "city": "Bogotá",
+    "lat": 0,
+    "lon": 0,
+    "operationType": "rent",
+    "createdDate": "2026-03-25",
+    "source": "Metrocuadrado",
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogot-/MC5402857",
+    "image": "https://multimedia.metrocuadrado.com/MC5402857/MC5402857_22_p.jpg"
+  },
+  {
+    "id": "mc-MC6493244",
+    "title": "Apartamento en Arriendo en SEARS, Bogotá",
+    "price": 3000000,
+    "currency": "COP",
+    "areaM2": 64,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "neighborhood": "SEARS",
+    "city": "Bogotá",
+    "lat": 0,
+    "lon": 0,
+    "operationType": "rent",
+    "createdDate": "2026-03-25",
+    "source": "Metrocuadrado",
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogot-/MC6493244",
+    "image": "https://multimedia.metrocuadrado.com/MC6493244/MC6493244_1_p.jpg"
+  },
+  {
+    "id": "mc-MC5585372",
+    "title": "Apartamento en Arriendo en CJR PARQUES DE LA ALAMEDA, Bogotá",
+    "price": 2150000,
+    "currency": "COP",
+    "areaM2": 49,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "neighborhood": "CJR PARQUES DE LA ALAMEDA",
+    "city": "Bogotá",
+    "lat": 0,
+    "lon": 0,
+    "operationType": "rent",
+    "createdDate": "2026-03-25",
+    "source": "Metrocuadrado",
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogot-/MC5585372",
+    "image": "https://multimedia.metrocuadrado.com/MC5585372/MC5585372_11_p.jpg"
   },
   {
     "id": "mc-MC6330860",
@@ -42336,42 +42174,6 @@
     "image": "https://multimedia.metrocuadrado.com/MC6443152/MC6443152_4_p.jpg"
   },
   {
-    "id": "mc-MC4402613",
-    "title": "Apartamento en Arriendo en ENTRERIOS, Bogotá",
-    "price": 2400000,
-    "currency": "COP",
-    "areaM2": 92,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "neighborhood": "ENTRERIOS",
-    "city": "Bogotá",
-    "lat": 0,
-    "lon": 0,
-    "operationType": "rent",
-    "createdDate": "2026-03-25",
-    "source": "Metrocuadrado",
-    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogot-/MC4402613",
-    "image": "https://multimedia.metrocuadrado.com/MC4402613/MC4402613_11_p.jpg"
-  },
-  {
-    "id": "mc-MC6477881",
-    "title": "Apartamento en Arriendo en REMANSO SUR, Bogotá",
-    "price": 2000000,
-    "currency": "COP",
-    "areaM2": 72,
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "neighborhood": "REMANSO SUR",
-    "city": "Bogotá",
-    "lat": 0,
-    "lon": 0,
-    "operationType": "rent",
-    "createdDate": "2026-03-25",
-    "source": "Metrocuadrado",
-    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogot-/MC6477881",
-    "image": "https://multimedia.metrocuadrado.com/MC6477881/MC6477881_1_p.jpg"
-  },
-  {
     "id": "mc-MC6303471",
     "title": "Apartamento en Arriendo en SANTA BARBARA CENTRAL, Bogotá",
     "price": 5800000,
@@ -42388,24 +42190,6 @@
     "source": "Metrocuadrado",
     "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogot-/MC6303471",
     "image": "https://multimedia.metrocuadrado.com/MC6303471/MC6303471_1_p.jpg"
-  },
-  {
-    "id": "mc-MC6510241",
-    "title": "Apartamento en Arriendo en LA IGUALDAD, Bogotá",
-    "price": 3100000,
-    "currency": "COP",
-    "areaM2": 72,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "neighborhood": "LA IGUALDAD",
-    "city": "Bogotá",
-    "lat": 0,
-    "lon": 0,
-    "operationType": "rent",
-    "createdDate": "2026-03-25",
-    "source": "Metrocuadrado",
-    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogot-/MC6510241",
-    "image": "https://multimedia.metrocuadrado.com/MC6510241/MC6510241_13_p.jpg"
   },
   {
     "id": "mc-MC6462965",
@@ -42426,6 +42210,24 @@
     "image": "https://multimedia.metrocuadrado.com/MC6462965/MC6462965_1_p.jpg"
   },
   {
+    "id": "mc-MC6510241",
+    "title": "Apartamento en Arriendo en LA IGUALDAD, Bogotá",
+    "price": 3100000,
+    "currency": "COP",
+    "areaM2": 72,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "neighborhood": "LA IGUALDAD",
+    "city": "Bogotá",
+    "lat": 0,
+    "lon": 0,
+    "operationType": "rent",
+    "createdDate": "2026-03-25",
+    "source": "Metrocuadrado",
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogot-/MC6510241",
+    "image": "https://multimedia.metrocuadrado.com/MC6510241/MC6510241_13_p.jpg"
+  },
+  {
     "id": "mc-MC4807232",
     "title": "Apartamento en Arriendo en CJR TORREHAYUELOS, Bogotá",
     "price": 2750000,
@@ -42442,6 +42244,24 @@
     "source": "Metrocuadrado",
     "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogot-/MC4807232",
     "image": "https://multimedia.metrocuadrado.com/MC4807232/MC4807232_2_p.jpg"
+  },
+  {
+    "id": "mc-MC6301762",
+    "title": "Apartamento en Venta en EL REDIL, Bogotá",
+    "price": 250000000,
+    "currency": "COP",
+    "areaM2": 30,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "neighborhood": "EL REDIL",
+    "city": "Bogotá",
+    "lat": 0,
+    "lon": 0,
+    "operationType": "sale",
+    "createdDate": "2026-03-25",
+    "source": "Metrocuadrado",
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogot-/MC6301762",
+    "image": "https://multimedia.metrocuadrado.com/MC6301762/MC6301762_10_p.jpg"
   },
   {
     "id": "mc-MC6497195",
@@ -42624,58 +42444,22 @@
     "image": "https://multimedia.metrocuadrado.com/MC5848478/MC5848478_21_p.jpg"
   },
   {
-    "id": "mc-MC6427471",
-    "title": "Apartamento en Venta en NUEVA GRANADA, Bogotá",
-    "price": 730000000,
+    "id": "mc-MC6385688",
+    "title": "Apartamento en Venta en CAOBOS SALAZAR, Bogotá",
+    "price": 497000000,
     "currency": "COP",
-    "areaM2": 69,
-    "bedrooms": 2,
+    "areaM2": 57,
+    "bedrooms": 1,
     "bathrooms": 2,
-    "neighborhood": "NUEVA GRANADA",
+    "neighborhood": "CAOBOS SALAZAR",
     "city": "Bogotá",
     "lat": 0,
     "lon": 0,
     "operationType": "sale",
     "createdDate": "2026-03-25",
     "source": "Metrocuadrado",
-    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogot-/MC6427471",
-    "image": "https://multimedia.metrocuadrado.com/MC6427471/MC6427471_1_p.jpg"
-  },
-  {
-    "id": "mc-MC6503855",
-    "title": "Apartamento en Venta en VERAGUAS, Bogotá",
-    "price": 220000000,
-    "currency": "COP",
-    "areaM2": 38,
-    "bedrooms": 2,
-    "bathrooms": 1,
-    "neighborhood": "VERAGUAS",
-    "city": "Bogotá",
-    "lat": 0,
-    "lon": 0,
-    "operationType": "sale",
-    "createdDate": "2026-03-25",
-    "source": "Metrocuadrado",
-    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogot-/MC6503855",
-    "image": "https://multimedia.metrocuadrado.com/MC6503855/MC6503855_1_p.jpg"
-  },
-  {
-    "id": "mc-MC6326755",
-    "title": "Apartamento en Venta en CHICO NORTE ET  III, Bogotá",
-    "price": 520000000,
-    "currency": "COP",
-    "areaM2": 82,
-    "bedrooms": 2,
-    "bathrooms": 3,
-    "neighborhood": "CHICO NORTE ET  III",
-    "city": "Bogotá",
-    "lat": 0,
-    "lon": 0,
-    "operationType": "sale",
-    "createdDate": "2026-03-25",
-    "source": "Metrocuadrado",
-    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogot-/MC6326755",
-    "image": "https://multimedia.metrocuadrado.com/MC6326755/MC6326755_1_p.jpg"
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogot-/MC6385688",
+    "image": "https://multimedia.metrocuadrado.com/MC6385688/MC6385688_1_p.jpg"
   },
   {
     "id": "mc-MC6155707",
@@ -42694,24 +42478,6 @@
     "source": "Metrocuadrado",
     "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogot-/MC6155707",
     "image": "https://multimedia.metrocuadrado.com/MC6155707/MC6155707_16_p.jpg"
-  },
-  {
-    "id": "mc-MC6385688",
-    "title": "Apartamento en Venta en CAOBOS SALAZAR, Bogotá",
-    "price": 497000000,
-    "currency": "COP",
-    "areaM2": 57,
-    "bedrooms": 1,
-    "bathrooms": 2,
-    "neighborhood": "CAOBOS SALAZAR",
-    "city": "Bogotá",
-    "lat": 0,
-    "lon": 0,
-    "operationType": "sale",
-    "createdDate": "2026-03-25",
-    "source": "Metrocuadrado",
-    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogot-/MC6385688",
-    "image": "https://multimedia.metrocuadrado.com/MC6385688/MC6385688_1_p.jpg"
   },
   {
     "id": "mc-MC6485472",

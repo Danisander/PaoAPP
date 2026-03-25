@@ -21,7 +21,17 @@ const NEARBY_CITIES = [
 
 // Special focus zones - scrape more pages for these
 const FOCUS_ZONES = {
-  'madrid-cundinamarca': { maxPages: 10, keywords: ['casablanca', 'hacienda casa'] },
+  'madrid-cundinamarca': { maxPages: 10 },
+};
+
+// Specific neighborhood searches within cities (FincaRaiz sub-zones)
+const CITY_SUBZONES = {
+  'madrid-cundinamarca': [
+    'hacienda-casablanca',
+    'hacienda-casablanca-la-sierra',
+    'ciudadela-hacienda-casablanca',
+    'conjunto-residencial-redil-hacienda-casablanca',
+  ],
 };
 
 const OPERATIONS = ['arriendo', 'venta'];
@@ -91,6 +101,29 @@ async function scrapeFincaRaiz() {
         console.log(`    Got ${results.length}, added ${added} new (total: ${allListings.length})`);
         if (results.length < 10) break;
         await delay(1500);
+      }
+    }
+
+    // Search specific sub-zones within cities
+    for (const [city, subzones] of Object.entries(CITY_SUBZONES)) {
+      for (const subzone of subzones) {
+        for (let page = 1; page <= 5; page++) {
+          const pageSuffix = page === 1 ? '' : `/pagina${page}`;
+          const url = `https://www.fincaraiz.com.co/${op}/apartamentos/${city}/${subzone}${pageSuffix}`;
+          console.log(`  Fetching subzone: ${url}`);
+          const results = await fetchFincaRaiz(url, op, city, true);
+          let added = 0;
+          for (const item of results) {
+            if (!seen.has(item.id)) {
+              seen.add(item.id);
+              allListings.push(item);
+              added++;
+            }
+          }
+          console.log(`    Got ${results.length}, added ${added} new (total: ${allListings.length})`);
+          if (results.length < 10) break;
+          await delay(1500);
+        }
       }
     }
   }
@@ -172,9 +205,23 @@ async function fetchFincaRaiz(url, operation, location, isCity) {
           if (!bathrooms) { const m = desc.match(/(\d+)\s*baño/i); if (m) bathrooms = parseInt(m[1]); }
         }
 
-        // Check if listing is in Hacienda Casablanca
-        const searchText = `${title} ${neighborhood} ${item.description || ''} ${item.address || ''}`.toLowerCase();
-        const isCasablanca = searchText.includes('casablanca') || searchText.includes('casa blanca');
+        // Check if listing is REALLY in Ciudadela Hacienda Casablanca, Madrid
+        // Must match specific patterns - NOT just any "casablanca" mention
+        const titleLower = title.toLowerCase();
+        const neighLower = (typeof neighborhood === 'string' ? neighborhood : '').toLowerCase();
+        const addressLower = (item.address || '').toLowerCase();
+        const isCasablanca = (
+          // Title explicitly says "hacienda casablanca"
+          titleLower.includes('hacienda casablanca') ||
+          // Neighborhood is specifically hacienda casablanca
+          neighLower.includes('hacienda casablanca') ||
+          neighLower.includes('hacienda casa blanca') ||
+          // Address mentions it
+          addressLower.includes('hacienda casablanca') ||
+          addressLower.includes('ciudadela hacienda casablanca') ||
+          // Conjunto residencial with casablanca in Madrid only
+          (titleLower.includes('casablanca') && titleLower.includes('madrid') && !titleLower.includes('bogot'))
+        ) && (isCity ? location === 'madrid-cundinamarca' : false); // Must be in Madrid
         const tags = [];
         if (isCasablanca) tags.push('hacienda-casablanca');
 
