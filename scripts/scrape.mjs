@@ -101,8 +101,11 @@ async function fetchListings(location, operation, isCity = false) {
           lon = item.coordinates.lon || 0;
         }
 
-        // Build real URL to the listing page
-        const url = `https://www.fincaraiz.com.co/${itemId}`;
+        // Only keep listings with valid 9+ digit IDs
+        if (String(itemId).length < 9) continue;
+
+        // Build real URL to the listing page (format: /inmueble/ID redirects to proper slug)
+        const url = `https://www.fincaraiz.com.co/inmueble/${itemId}`;
 
         // Extract bedrooms/bathrooms from technicalSheet or direct fields
         let bedrooms = item.bedrooms || 0;
