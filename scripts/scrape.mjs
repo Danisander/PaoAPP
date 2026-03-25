@@ -19,6 +19,11 @@ const NEARBY_CITIES = [
   'chia', 'soacha', 'mosquera', 'madrid-cundinamarca', 'zipaquira',
 ];
 
+// Special focus zones - scrape more pages for these
+const FOCUS_ZONES = {
+  'madrid-cundinamarca': { maxPages: 10, keywords: ['casablanca', 'hacienda casa'] },
+};
+
 const OPERATIONS = ['arriendo', 'venta'];
 
 const HEADERS = {
@@ -68,7 +73,9 @@ async function scrapeFincaRaiz() {
 
     // Nearby cities
     for (const city of NEARBY_CITIES) {
-      for (let page = 1; page <= 3; page++) {
+      const focusConfig = FOCUS_ZONES[city];
+      const maxPages = focusConfig ? focusConfig.maxPages : 3;
+      for (let page = 1; page <= maxPages; page++) {
         const pageSuffix = page === 1 ? '' : `/pagina${page}`;
         const url = `https://www.fincaraiz.com.co/${op}/apartamentos/${city}${pageSuffix}`;
         console.log(`  Fetching: ${url}`);
@@ -165,6 +172,12 @@ async function fetchFincaRaiz(url, operation, location, isCity) {
           if (!bathrooms) { const m = desc.match(/(\d+)\s*baño/i); if (m) bathrooms = parseInt(m[1]); }
         }
 
+        // Check if listing is in Hacienda Casablanca
+        const searchText = `${title} ${neighborhood} ${item.description || ''} ${item.address || ''}`.toLowerCase();
+        const isCasablanca = searchText.includes('casablanca') || searchText.includes('casa blanca');
+        const tags = [];
+        if (isCasablanca) tags.push('hacienda-casablanca');
+
         listings.push({
           id: `fr-${itemId}`,
           title,
@@ -174,7 +187,7 @@ async function fetchFincaRaiz(url, operation, location, isCity) {
           areaM2: typeof area === 'number' ? area : parseFloat(area) || 0,
           bedrooms,
           bathrooms,
-          neighborhood: capitalize(neighborhood),
+          neighborhood: isCasablanca ? 'Hacienda Casablanca' : capitalize(neighborhood),
           city: capitalize(city),
           lat, lon,
           operationType: operation === 'arriendo' ? 'rent' : 'sale',
@@ -182,6 +195,7 @@ async function fetchFincaRaiz(url, operation, location, isCity) {
           source: 'FincaRaiz',
           url: listingUrl,
           image: item.img || '',
+          tags,
         });
       } catch { /* skip */ }
     }

@@ -16,6 +16,7 @@ export interface Listing {
   url: string;
   image?: string;
   adminPrice?: number;
+  tags?: string[];
 }
 
 export interface FilterState {

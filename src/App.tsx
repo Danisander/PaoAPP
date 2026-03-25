@@ -1,7 +1,8 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { FilterPanel } from './components/FilterPanel';
+import { FeaturedSection } from './components/FeaturedSection';
 import { ListingGrid } from './components/ListingGrid';
 import { ListingMap } from './components/ListingMap';
 import { EmptyState } from './components/EmptyState';
@@ -17,6 +18,20 @@ function App() {
   const [viewMode, setViewMode] = useState<ViewMode>('grid');
   const [showFilters, setShowFilters] = useState(false);
   const [sortOrder, setSortOrder] = useState<SortOrder>('default');
+
+  // Hacienda Casablanca featured listings
+  const casablancaListings = useMemo(() =>
+    listings.filter(l =>
+      l.tags?.includes('hacienda-casablanca') ||
+      l.neighborhood.toLowerCase().includes('casablanca') ||
+      l.title.toLowerCase().includes('casablanca')
+    ), [listings]
+  );
+
+  // Check if user has active filters (not default)
+  const hasActiveFilters = filters.priceMin > 0 || filters.priceMax < 1_500_000_000 ||
+    filters.areaMin > 0 || filters.areaMax < 300 ||
+    filters.operationType !== 'all' || filters.neighborhood !== '';
 
   const sorted = [...filtered].sort((a, b) => {
     switch (sortOrder) {
@@ -121,6 +136,14 @@ function App() {
               </div>
               </div>
             </div>
+
+            {/* Featured: Hacienda Casablanca */}
+            {!hasActiveFilters && casablancaListings.length > 0 && viewMode === 'grid' && (
+              <FeaturedSection
+                listings={casablancaListings}
+                onViewAll={() => updateFilter('neighborhood', 'Hacienda Casablanca')}
+              />
+            )}
 
             {/* Content */}
             {sorted.length === 0 ? (
