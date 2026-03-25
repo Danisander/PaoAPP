@@ -53,20 +53,19 @@ function randomDate(rng: () => number): string {
 const sources = ['FincaRaiz', 'Metrocuadrado', 'Properati', 'OLX', 'Ciencuadras'];
 
 function buildSourceUrl(source: string, neighborhood: string, opType: 'sale' | 'rent'): string {
-  const hood = encodeURIComponent(neighborhood.toLowerCase().replace(/ /g, '-'));
-  const op = opType === 'rent' ? 'arriendo' : 'venta';
+  const query = encodeURIComponent(`apartamento ${opType === 'rent' ? 'arriendo' : 'venta'} ${neighborhood} bogota`);
   switch (source) {
     case 'FincaRaiz':
-      return `https://www.fincaraiz.com.co/apartamento/${op}/bogota/${hood}`;
+      return `https://www.fincaraiz.com.co/finca-raiz?search=${query}`;
     case 'Metrocuadrado':
-      return `https://www.metrocuadrado.com/apartamentos/${op}/bogota/${hood}/`;
+      return `https://www.metrocuadrado.com/s/bogota/apartamentos?search=${query}`;
     case 'Ciencuadras':
-      return `https://www.ciencuadras.com/apartamento/${op}/bogota/${hood}`;
+      return `https://www.ciencuadras.com/buscar?q=${query}`;
     case 'OLX':
-      return `https://www.olx.com.co/inmuebles/apartamentos-${op}/bogota`;
+      return `https://www.google.com/search?q=${query}+site:olx.com.co`;
     case 'Properati':
     default:
-      return `https://www.properati.com.co/s/bogota/apartamento/${op}`;
+      return `https://www.google.com/search?q=${query}+site:properati.com.co`;
   }
 }
 

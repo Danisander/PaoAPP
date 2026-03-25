@@ -9,12 +9,24 @@ import { useListings } from './hooks/useListings';
 import { useFilters } from './hooks/useFilters';
 
 type ViewMode = 'grid' | 'map';
+type SortOrder = 'default' | 'price-asc' | 'price-desc' | 'area-desc' | 'newest';
 
 function App() {
   const { listings, loading, lastUpdated } = useListings();
   const { filters, filtered, neighborhoods, updateFilter, resetFilters } = useFilters(listings);
   const [viewMode, setViewMode] = useState<ViewMode>('grid');
   const [showFilters, setShowFilters] = useState(false);
+  const [sortOrder, setSortOrder] = useState<SortOrder>('default');
+
+  const sorted = [...filtered].sort((a, b) => {
+    switch (sortOrder) {
+      case 'price-asc': return a.price - b.price;
+      case 'price-desc': return b.price - a.price;
+      case 'area-desc': return b.areaM2 - a.areaM2;
+      case 'newest': return new Date(b.createdDate).getTime() - new Date(a.createdDate).getTime();
+      default: return 0;
+    }
+  });
 
   if (loading) {
     return (
@@ -66,10 +78,22 @@ function App() {
           {/* Main content */}
           <main className="flex-1 min-w-0">
             {/* Results header */}
-            <div className="flex items-center justify-between mb-4">
+            <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
               <p className="text-sm text-gray-600">
-                <span className="font-bold text-primary-600">{filtered.length}</span> apartamentos encontrados
+                <span className="font-bold text-primary-600">{sorted.length}</span> apartamentos encontrados
               </p>
+              <div className="flex items-center gap-2">
+                <select
+                  value={sortOrder}
+                  onChange={(e) => setSortOrder(e.target.value as SortOrder)}
+                  className="border border-gray-300 rounded-lg px-2 py-1.5 text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500 bg-white shadow-sm"
+                >
+                  <option value="default">Ordenar por</option>
+                  <option value="price-asc">Precio: menor a mayor</option>
+                  <option value="price-desc">Precio: mayor a menor</option>
+                  <option value="area-desc">Mayor area</option>
+                  <option value="newest">Mas recientes</option>
+                </select>
               <div className="flex gap-1 bg-white rounded-lg shadow-sm p-1">
                 <button
                   onClick={() => setViewMode('grid')}
@@ -95,15 +119,16 @@ function App() {
                   Mapa
                 </button>
               </div>
+              </div>
             </div>
 
             {/* Content */}
-            {filtered.length === 0 ? (
+            {sorted.length === 0 ? (
               <EmptyState onReset={resetFilters} />
             ) : viewMode === 'grid' ? (
-              <ListingGrid listings={filtered} />
+              <ListingGrid listings={sorted} />
             ) : (
-              <ListingMap listings={filtered} />
+              <ListingMap listings={sorted} />
             )}
           </main>
         </div>
